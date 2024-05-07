@@ -3,20 +3,23 @@
 int main()
 {
     int a;
-    
+    int b;
+    int c;
 
     scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
    
 
-    if ((a>17 && a<30)|| (a>60 && a<100))
+    if (a==b && b==c)
+    { printf("triangolo equilatero");
+    }
+    else if (a==b)
+    { printf("triangolo isoscele");
+    }
+    else if (a+b>c && a+c>b && b+c>a)
     {
-        printf("a paga ridotto");
+        printf("è un triangolo scaleno");
     }
-    else if (a<17) {
-        printf(" a non paga");
+  
     }
-
-
-    else if ((a>30 && a<60|| a>100))
-{   printf("a paga completo");
-}}
