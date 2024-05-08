@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistdio.h>
+
 int main()
 {
     printf("inserisci il nome utente\n");
@@ -8,6 +10,6 @@ int main()
     char personaggio[9];
     scanf("%s", personaggio);
     printf("Benvenuto a Toadlandia\n ");
-    printf("")
+    printf("Tipo timido è stato rinchiuso nel castello di bowser\n Il tuo compito è liberarlo\n Vi trovate già ai piedi del Castello Infernale\n Dovete riuscire ad arrivare in cima\n Alla fine dovrete risolvere l'indovinello di Bowser per liberare il vostro amico");
 
     }
